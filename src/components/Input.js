@@ -26,8 +26,8 @@ const Input = () => {
 
     dispatch(
       saveTodo({
-        item: input,
-        done: false,
+        title: input,
+        completed: false,
         id: Date.now(),
       })
     );
